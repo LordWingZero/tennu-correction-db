@@ -1,6 +1,6 @@
 {
   "name": "tennu-correction-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware for tennu-correction, hooks into tennu-dbcore for messages stored by tennu-dblogger.",
   "main": "plugin.js",
   "repository": {
