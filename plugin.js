@@ -15,7 +15,6 @@ var TennuCorrectionDb = {
         const correctionHandler = function(lookBackLimit, target, channel, replacement) {
             return dbACorrectionPromise.then(function(correctionDb) {
                 return correctionDb.find(lookBackLimit, target, channel).then(function(locatedDBTarget) {
-                    console.log(locatedDBTarget);
                     if (!locatedDBTarget) {
                         return {
                             intent: "notice",
