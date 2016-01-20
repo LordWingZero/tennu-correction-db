@@ -1,3 +1,5 @@
+# DEPRECIATED
+
 # tennu-correction-db
 
 A plugin for the [tennu](https://github.com/Tennu/tennu) irc framework.
